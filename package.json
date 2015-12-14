@@ -2,7 +2,8 @@
   "name": "ampproject",
   "version": "1.0.0",
   "engines": {
-    "node": "v4.2.3"
+    "node": "v4.2.3",
+    "npm": "2.14.7"
   },
   "description": "",
   "main": "server.js",
