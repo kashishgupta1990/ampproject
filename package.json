@@ -1,0 +1,27 @@
+{
+  "name": "ampproject",
+  "version": "1.0.0",
+  "engines": {
+    "node": "v4.2.3"
+  },
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashishgupta1990/ampproject.git"
+  },
+  "author": {
+    "name": "Kashish Gupta"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashishgupta1990/ampproject/issues"
+  },
+  "homepage": "https://github.com/kashishgupta1990/ampproject#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
