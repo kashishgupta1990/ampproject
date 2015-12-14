@@ -2,8 +2,8 @@
 <html amp lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Hello, AMPs</title>
-    <link rel="canonical" href="http://example.ampproject.org/article-metadata.html" />
+    <title>Demo AMP application</title>
+    <link rel="canonical" href="http://ampproject.herokuapp.com/index.html" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <script type="application/ld+json">
       {
@@ -16,10 +16,21 @@
         ]
       }
     </script>
+    <style amp-custom>
+      /* any custom style goes here */
+      body {
+        background-color: white;
+      }
+      amp-img {
+        background-color: pink;
+        border: 1px solid black;
+      }
+   </style>
     <style>body {opacity: 0}</style><noscript><style>body {opacity: 1}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
   </head>
   <body>
     <h1>Welcome to the mobile web</h1>
+    <amp-img src="images/buddha.jpg" alt="Buddha" height="150" width="240"></amp-img>
   </body>
 </html>
