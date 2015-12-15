@@ -1,0 +1,38 @@
+<!doctype html>
+<html ng-app="propTiger" amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Demo AMP application</title>
+    <link rel="canonical" href="http://ampproject.herokuapp.com/index.html" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Open-source framework for publishing content",
+        "datePublished": "2015-10-07T12:02:41Z",
+        "image": [
+          "logo.jpg"
+        ]
+      }
+    </script>
+    <style amp-custom>
+      /* any custom style goes here */
+      body {
+        background-color: white;
+      }
+      amp-img {
+        background-color: pink;
+        border: 1px solid black;
+      }
+   </style>
+    <style>body {opacity: 0}</style><noscript><style>body {opacity: 1}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="controller/index.js"></script>
+  </head>
+  <body ng-controller="IndexCtrl">
+    <h1>Welcome to the mobile web</h1>
+    <amp-img src="assets/images/buddha.jpg" alt="Buddha" height="150" width="240"></amp-img>
+  </body>
+</html>
